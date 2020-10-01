@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+  <!--
+
+Este arquivo foi gerado pela Arquitetura JavaTM para Implementação de Referência (JAXB) de Bind XML, v2.2.11 
+Consulte <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
+Todas as modificações neste arquivo serão perdidas após a recompilação do esquema de origem. 
+Gerado em: 2020.09.30 às 08:06:23 PM BRT 
+
+  -->
+  <bindings xmlns:tns="http://tempuri.org/" if-exists="true" scd="x-schema::tns">
+    <schemaBindings map="false">
+      <package name="com.br.soapwebservice.soap"/>
+    </schemaBindings>
+    <bindings if-exists="true" scd="tns:CalcPrecoPrazo">
+      <class ref="com.br.soapwebservice.soap.CalcPrecoPrazo"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:CalcPrecoPrazoResponse">
+      <class ref="com.br.soapwebservice.soap.CalcPrecoPrazoResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:cResultado">
+      <class ref="com.br.soapwebservice.soap.CResultado"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:CalcPrecoPrazoData">
+      <class ref="com.br.soapwebservice.soap.CalcPrecoPrazoData"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:CalcPrecoPrazoDataResponse">
+      <class ref="com.br.soapwebservice.soap.CalcPrecoPrazoDataResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:CalcPrecoPrazoRestricao">
+      <class ref="com.br.soapwebservice.soap.CalcPrecoPrazoRestricao"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:CalcPrecoPrazoRestricaoResponse">
+      <class ref="com.br.soapwebservice.soap.CalcPrecoPrazoRestricaoResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:CalcPreco">
+      <class ref="com.br.soapwebservice.soap.CalcPreco"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:CalcPrecoResponse">
+      <class ref="com.br.soapwebservice.soap.CalcPrecoResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:CalcPrecoData">
+      <class ref="com.br.soapwebservice.soap.CalcPrecoData"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:CalcPrecoDataResponse">
+      <class ref="com.br.soapwebservice.soap.CalcPrecoDataResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:CalcPrazo">
+      <class ref="com.br.soapwebservice.soap.CalcPrazo"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:CalcPrazoResponse">
+      <class ref="com.br.soapwebservice.soap.CalcPrazoResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:CalcPrazoData">
+      <class ref="com.br.soapwebservice.soap.CalcPrazoData"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:CalcPrazoDataResponse">
+      <class ref="com.br.soapwebservice.soap.CalcPrazoDataResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:CalcPrazoRestricao">
+      <class ref="com.br.soapwebservice.soap.CalcPrazoRestricao"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:CalcPrazoRestricaoResponse">
+      <class ref="com.br.soapwebservice.soap.CalcPrazoRestricaoResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:CalcPrecoFAC">
+      <class ref="com.br.soapwebservice.soap.CalcPrecoFAC"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:CalcPrecoFACResponse">
+      <class ref="com.br.soapwebservice.soap.CalcPrecoFACResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:CalcDataMaxima">
+      <class ref="com.br.soapwebservice.soap.CalcDataMaxima"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:CalcDataMaximaResponse">
+      <class ref="com.br.soapwebservice.soap.CalcDataMaximaResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:cResultadoObjeto">
+      <class ref="com.br.soapwebservice.soap.CResultadoObjeto"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ListaServicos">
+      <class ref="com.br.soapwebservice.soap.ListaServicos"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ListaServicosResponse">
+      <class ref="com.br.soapwebservice.soap.ListaServicosResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:cResultadoServicos">
+      <class ref="com.br.soapwebservice.soap.CResultadoServicos"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ListaServicosSTAR">
+      <class ref="com.br.soapwebservice.soap.ListaServicosSTAR"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ListaServicosSTARResponse">
+      <class ref="com.br.soapwebservice.soap.ListaServicosSTARResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:VerificaModal">
+      <class ref="com.br.soapwebservice.soap.VerificaModal"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:VerificaModalResponse">
+      <class ref="com.br.soapwebservice.soap.VerificaModalResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:cResultadoModal">
+      <class ref="com.br.soapwebservice.soap.CResultadoModal"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:getVersao">
+      <class ref="com.br.soapwebservice.soap.GetVersao"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:getVersaoResponse">
+      <class ref="com.br.soapwebservice.soap.GetVersaoResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:versao">
+      <class ref="com.br.soapwebservice.soap.Versao"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:calcPrazoNovo">
+      <class ref="com.br.soapwebservice.soap.CalcPrazoNovo"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:calcPrazoNovoResponse">
+      <class ref="com.br.soapwebservice.soap.CalcPrazoNovoResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ArrayOfCServico">
+      <class ref="com.br.soapwebservice.soap.ArrayOfCServico"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:cServico">
+      <class ref="com.br.soapwebservice.soap.CServico"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ArrayOfCObjeto">
+      <class ref="com.br.soapwebservice.soap.ArrayOfCObjeto"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:cObjeto">
+      <class ref="com.br.soapwebservice.soap.CObjeto"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ArrayOfCServicosCalculo">
+      <class ref="com.br.soapwebservice.soap.ArrayOfCServicosCalculo"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:cServicosCalculo">
+      <class ref="com.br.soapwebservice.soap.CServicosCalculo"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ArrayOfCModal">
+      <class ref="com.br.soapwebservice.soap.ArrayOfCModal"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:cModal">
+      <class ref="com.br.soapwebservice.soap.CModal"/>
+    </bindings>
+  </bindings>
+</bindings>
